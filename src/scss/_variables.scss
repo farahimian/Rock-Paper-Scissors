@@ -1,0 +1,29 @@
+//colors
+
+$scissors-gradient: #1da097;
+$paper-gradient: #1da097 ;
+$rock-gradient: #1da097;
+
+//states
+$win-color:#cde78a;
+$lose-color:#f8948f;
+$draw-color:#f8dc86;
+
+
+//text
+
+$dark-text: #333131;
+$score-text: hsl(229, 64%, 46%);
+$header-outline: hsl(217, 8%, 62%);
+
+//Background
+$background-gradient: radial-gradient(circle, #181717,
+#606263
+);
+
+//Images
+
+$imageP:"../src/images/icon-paper.svg";
+$imageS:"../src/images/icon-scissors.svg";
+$imageR:"../src/images/icon-rock.svg";
+

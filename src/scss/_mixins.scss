@@ -1,0 +1,17 @@
+@mixin icon($image,$color){
+    background-color: #fff;
+    background-image: url($image);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: $color;
+    box-shadow: inset 0px 5px 6px rgb(197, 195, 195);
+    
+}
+
+@mixin bigShadow($color){
+box-shadow:inset 0px 5px 6px rgb(197, 195, 195), 
+   
+    0px 0px 0px 40px rgba(#ffffff, .07),
+    0px 0px 0px 80px rgba(#ffffff, .05),
+    0px 0px 0px 120px rgba(#ffffff, .025),;
+}

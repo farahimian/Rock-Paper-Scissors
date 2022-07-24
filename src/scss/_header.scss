@@ -1,0 +1,56 @@
+.header{
+    display:flex;
+    //border: 3px solid $header-outline;
+    max-width: 43.75rem;
+    width: 100%;
+
+    margin-top: 1.875rem;
+    border-radius: 1rem;
+    padding: 1.25rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    .text{
+        font-size: 2.7rem;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 2.7rem;
+    }
+    .text img {
+        width:30px;
+        margin:2px;
+    }
+    .score-box{
+        width:7.5rem;
+        height:7.5rem;
+        align-content:center ;
+        display: grid;
+        background-color: #fff;
+        color: $score-text;
+        border-radius: 30%;
+
+        &__score{
+            color: $dark-text;
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+
+    }
+        .wins {
+            border: 10px solid $win-color;
+            color: $win-color;
+        }
+        .ties {
+            border: 10px solid $draw-color;
+            color: $draw-color;
+            
+        }
+        .loses {
+            border: 10px solid $lose-color;
+            color:$lose-color;
+            
+        }
+}
